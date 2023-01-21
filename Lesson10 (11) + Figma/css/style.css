@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #333;
+}
+
+.container {
+  width: 1040px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.header__logo-img {
+  display: block;
+}
+
+header {
+  padding-top: 30px;
+}
+
+.header__nav {
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.header__nav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+}
+
+.header__nav-search {
+  margin-left: 40px;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #333333;
+  padding-bottom: 6px;
+  width: 153px;
+}
+
+.header__nav-list li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.header__nav-search ::placeholder {
+  color: #666666;
+}
+
+.nav__home {
+  padding-bottom: 6px;
+  border-bottom: 3px solid #333333;
+}
+
+main {
+  display: flex;
+  position: relative;
+}
+
+.main__left {
+  margin-top: 106px;
+  margin-left: 125px;
+  width: 490px;
+}
+
+.main__left h1 {
+  font-weight: 700;
+  font-size: 50px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.main__left p {
+  color: #777777;
+  margin-bottom: 30px;
+  padding-left: 40px;
+  border-left: 3px solid #888888;
+}
+
+.main__left button {
+  width: 260px;
+  height: 51px;
+  background: #c9514c;
+  border: none;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.main__right {
+  position: absolute;
+  right: 0;
+}
+
+.section__1 {
+  margin-top: 183px;
+  padding-top: 70px;
+  display: flex;
+  gap: 80px;
+  position: relative;
+}
+
+.section__1-first {
+  width: 280px;
+}
+
+.section__1-second {
+  width: 280px;
+}
+
+.section__1-third {
+  width: 280px;
+}
+
+.section__1 h2 {
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.section__1 p {
+  color: #333333;
+  font-size: 15px;
+}
+
+.section__1-learn {
+  color: #ea625c;
+  position: absolute;
+  right: 100px;
+  bottom: 31px;
+}
+
+.section__1-third span {
+  position: absolute;
+  right: 220px;
+  bottom: 40px;
+  width: 60px;
+  display: inline-block;
+  height: 3px;
+  background: #ea625c;
+}
+
+.section__1-first span {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: #dddddd;
+  position: absolute;
+}
+
+.section__1-first-1 {
+  bottom: -30px;
+}
+
+.section__1-first-2 {
+  bottom: -30px;
+  left: 20px;
+}
+
+.section__1-first-3 {
+  bottom: -30px;
+  left: 40px;
+}
+
+.section__1-second span {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: #dddddd;
+  position: absolute;
+}
+
+.section__1-second-1 {
+  bottom: -8px;
+  left: 360px;
+}
+
+.section__1-second-2 {
+  bottom: -8px;
+  left: 380px;
+}
+
+.section__1-second-3 {
+  bottom: -8px;
+  left: 400px;
+}
+
+.section__2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 140px;
+}
+
+.section__2-left {
+  width: 490px;
+}
+
+.section__2-left h1 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 120%;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.section__2-left p {
+  color: #777777;
+  margin-bottom: 30px;
+  padding-left: 40px;
+  border-left: 3px solid #888888;
+}
+
+.section__2-left button {
+  width: 260px;
+  height: 51px;
+  background: #c9514c;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+  border: none;
+}
+
+footer {
+  position: relative;
+  margin-top: 70px;
+  height: 830px;
+  background-image: url("../images/footer__bgimage-runners.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer__content h1 {
+  line-height: 120%;
+  color: #fff;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.footer__content {
+  position: absolute;
+  top: 240px;
+  right: 125px;
+  width: 490px;
+}
+
+.footer__content p {
+  color: #fff;
+  padding-left: 40px;
+  border-left: 3px solid #ffffff;
+  margin-bottom: 42px;
+}
+
+.footer__content button {
+  width: 260px;
+  height: 51px;
+  background: #c9514c;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+}
